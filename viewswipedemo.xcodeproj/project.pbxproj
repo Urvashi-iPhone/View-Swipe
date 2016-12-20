@@ -15,6 +15,12 @@
 		ADD8E23C1DAFB53900D00DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD8E23A1DAFB53900D00DC4 /* LaunchScreen.storyboard */; };
 		ADD8E2471DAFB53900D00DC4 /* viewswipedemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD8E2461DAFB53900D00DC4 /* viewswipedemoTests.m */; };
 		ADD8E2521DAFB53900D00DC4 /* viewswipedemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD8E2511DAFB53900D00DC4 /* viewswipedemoUITests.m */; };
+		ADD8E26A1DAFB61100D00DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD8E2691DAFB61100D00DC4 /* Foundation.framework */; };
+		ADD8E26C1DAFB61F00D00DC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD8E26B1DAFB61F00D00DC4 /* CoreGraphics.framework */; };
+		ADD8E26E1DAFB62600D00DC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD8E26D1DAFB62600D00DC4 /* UIKit.framework */; };
+		ADD8E2751DAFB66F00D00DC4 /* AbstractLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD8E2701DAFB66F00D00DC4 /* AbstractLayoutView.m */; };
+		ADD8E2761DAFB66F00D00DC4 /* HLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD8E2721DAFB66F00D00DC4 /* HLayoutView.m */; };
+		ADD8E2771DAFB66F00D00DC4 /* VLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD8E2741DAFB66F00D00DC4 /* VLayoutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		ADD8E24D1DAFB53900D00DC4 /* viewswipedemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewswipedemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD8E2511DAFB53900D00DC4 /* viewswipedemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewswipedemoUITests.m; sourceTree = "<group>"; };
 		ADD8E2531DAFB53900D00DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD8E2691DAFB61100D00DC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADD8E26B1DAFB61F00D00DC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADD8E26D1DAFB62600D00DC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADD8E26F1DAFB66F00D00DC4 /* AbstractLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractLayoutView.h; sourceTree = "<group>"; };
+		ADD8E2701DAFB66F00D00DC4 /* AbstractLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractLayoutView.m; sourceTree = "<group>"; };
+		ADD8E2711DAFB66F00D00DC4 /* HLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLayoutView.h; sourceTree = "<group>"; };
+		ADD8E2721DAFB66F00D00DC4 /* HLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLayoutView.m; sourceTree = "<group>"; };
+		ADD8E2731DAFB66F00D00DC4 /* VLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLayoutView.h; sourceTree = "<group>"; };
+		ADD8E2741DAFB66F00D00DC4 /* VLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLayoutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD8E26E1DAFB62600D00DC4 /* UIKit.framework in Frameworks */,
+				ADD8E26C1DAFB61F00D00DC4 /* CoreGraphics.framework in Frameworks */,
+				ADD8E26A1DAFB61100D00DC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,9 @@
 			children = (
 				ADD8E22B1DAFB53900D00DC4 /* viewswipedemo */,
 				ADD8E2451DAFB53900D00DC4 /* viewswipedemoTests */,
+				ADD8E26D1DAFB62600D00DC4 /* UIKit.framework */,
+				ADD8E26B1DAFB61F00D00DC4 /* CoreGraphics.framework */,
+				ADD8E2691DAFB61100D00DC4 /* Foundation.framework */,
 				ADD8E2501DAFB53900D00DC4 /* viewswipedemoUITests */,
 				ADD8E22A1DAFB53900D00DC4 /* Products */,
 			);
@@ -101,6 +122,7 @@
 		ADD8E22B1DAFB53900D00DC4 /* viewswipedemo */ = {
 			isa = PBXGroup;
 			children = (
+				ADD8E25F1DAFB57D00D00DC4 /* Layouts */,
 				ADD8E22F1DAFB53900D00DC4 /* AppDelegate.h */,
 				ADD8E2301DAFB53900D00DC4 /* AppDelegate.m */,
 				ADD8E2321DAFB53900D00DC4 /* ViewController.h */,
@@ -138,6 +160,19 @@
 				ADD8E2531DAFB53900D00DC4 /* Info.plist */,
 			);
 			path = viewswipedemoUITests;
+			sourceTree = "<group>";
+		};
+		ADD8E25F1DAFB57D00D00DC4 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				ADD8E26F1DAFB66F00D00DC4 /* AbstractLayoutView.h */,
+				ADD8E2701DAFB66F00D00DC4 /* AbstractLayoutView.m */,
+				ADD8E2711DAFB66F00D00DC4 /* HLayoutView.h */,
+				ADD8E2721DAFB66F00D00DC4 /* HLayoutView.m */,
+				ADD8E2731DAFB66F00D00DC4 /* VLayoutView.h */,
+				ADD8E2741DAFB66F00D00DC4 /* VLayoutView.m */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD8E2761DAFB66F00D00DC4 /* HLayoutView.m in Sources */,
+				ADD8E2771DAFB66F00D00DC4 /* VLayoutView.m in Sources */,
+				ADD8E2751DAFB66F00D00DC4 /* AbstractLayoutView.m in Sources */,
 				ADD8E2341DAFB53900D00DC4 /* ViewController.m in Sources */,
 				ADD8E2311DAFB53900D00DC4 /* AppDelegate.m in Sources */,
 				ADD8E22E1DAFB53900D00DC4 /* main.m in Sources */,
